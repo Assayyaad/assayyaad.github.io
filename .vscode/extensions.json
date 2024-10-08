@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "goessner.mdmath",
+    "nhoizey.gremlins",
+    "redhat.vscode-yaml",
+    "yzane.markdown-pdf",
+    "usernamehw.errorlens",
+    "docsmsft.docs-markdown",
+    "yzhang.markdown-all-in-one",
+    "mdickin.markdown-shortcuts",
+    "christian-kohler.path-intellisense"
+  ]
+}
