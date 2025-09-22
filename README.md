@@ -1,18 +1,45 @@
-# Projects
+# الصياد - ملف شخصي
 
-## GameDev
+موقع ملف شخصي يعرض أعمالي كمطور ألعاب متخصص في تصميم وبرمجة الألعاب
 
-<iframe frameborder="0" src="https://itch.io/embed/2090709" width="552" height="167"><a href="https://nabil-alsaiad.itch.io/good-here-bad-there">Good here, bad there by The Alpha</a></iframe>
+## 🎮 نبذة عني
 
-## DisQada
+### تصميم الألعاب - القتال وآليات اللعب
+أتخصص في تصميم أنظمة القتال المتوازنة والممتعة، وتطوير آليات اللعب التي تخلق تجارب تفاعلية مشوقة. أركز على تحليل سلوك اللاعبين وتصميم منحنيات الصعوبة التي تحافظ على التحدي دون الإحباط، مع الاهتمام بتوازن الشخصيات والأسلحة والقدرات الخاصة.
 
-A side project for building Discord bot tools and templates to ease their development process and make it much faster
-I also provide in it ways to improve your Discord server moderation and design
+### برمجة الألعاب - الأنظمة والأدوات
+أطور أنظمة البرمجة الخلفية للألعاب بما في ذلك محركات الفيزياء المبسطة، وأنظمة إدارة الموارد، وأدوات التطوير المخصصة التي تسرع عملية الإنتاج. خبرتي تشمل برمجة أدوات المحررات المخصصة، وأنظمة التحميل الديناميكي، وحلول الأداء التي تضمن تشغيلاً سلساً للألعاب.
 
-# links
+## 🚀 المميزات
 
-## Social media
+- تحميل ديناميكي للمحتوى من ملفات JSON
+- تصميم متجاوب يعمل على جميع الأجهزة
+- واجهة مستخدم عربية مع دعم كامل للغة
+- عرض تفاعلي للمشاريع والألعاب والفنون
+- ربط ديناميكي للروابط الاجتماعية
 
-- [X](https://x.com/assayyaad)
-- [LinkedIn](https://linkedin.com/in/assayyaad)
-- [YouTube](https://youtube.com/@assayyaad)
+## 📁 هيكل المشروع
+
+```
+├── css/
+│   └── style.css          # ملف الأنماط الرئيسي
+├── data/
+│   ├── links.json         # الروابط الاجتماعية
+│   ├── teams.json         # معلومات الفرق
+│   └── projects/
+│       ├── games.json     # بيانات الألعاب
+│       ├── arts.json      # بيانات الأعمال الفنية
+│       └── systems.json   # بيانات الأنظمة والأدوات
+├── js/
+│   └── script.js          # ملف JavaScript الرئيسي
+├── img/                   # الصور والأيقونات
+└── index.html             # الصفحة الرئيسية
+```
+
+## 📝 الترخيص
+
+هذا المشروع مفتوح المصدر ومتاح تحت ترخيص وقف، إقرأ الملف [LICENSE](./LICENSE) أو راجع [الرابط](https://gitlab.com/-/snippets/4888680)
+
+## 🙏 الشكر والتقدير
+
+تم استخدام مشروع [gbrlferz.github.io](https://github.com/gbrlferz/gbrlferz.github.io) كنقطة انطلاق لهذا المشروع، مع التعديل والتطوير ليناسب المحتوى العربي ومتطلبات عرض أعمال مطور الألعاب.

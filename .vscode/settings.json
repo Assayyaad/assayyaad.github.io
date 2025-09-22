@@ -11,5 +11,6 @@
 
   "markdown.replaceSmartQuotes": true,
   "markdown.occurrencesHighlight.enabled": true,
-  "markdown.extension.tableFormatter.normalizeIndentation": true
+  "markdown.extension.tableFormatter.normalizeIndentation": true,
+  "iconify.annotations": true
 }

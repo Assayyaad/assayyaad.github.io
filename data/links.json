@@ -1,0 +1,12 @@
+[
+  {
+    "name": "صفحة الروابط",
+    "url": "https://links.assayyaad.pro",
+    "icon": "material-symbols:link"
+  },
+  {
+    "name": "السيرة الذاتية",
+    "url": "https://cv.assayyaad.pro",
+    "icon": "pepicons-pencil:cv"
+  }
+]
