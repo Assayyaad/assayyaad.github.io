@@ -31,10 +31,11 @@ function escapeHtml(value) {
 /**
  * Loads JSON from the provided path.
  * @template T
- * @param {string} path
+ * @param {string} filename
  * @returns {Promise<T>}
  */
-async function fetchJson(path) {
+async function fetchJson(filename) {
+  const path = `data/index/${filename}.json`
   const res = await fetch(path)
   if (!res.ok) {
     throw new Error(`Request failed for ${path}: ${res.status} ${res.statusText}`)
@@ -83,7 +84,7 @@ async function runLoader(errorContext, loader) {
 
 async function loadSocialLinks() {
   await runLoader('social links', async () => {
-    const links = /** @type {Link[]} */ (await fetchJson('data/links.json'))
+    const links = /** @type {Link[]} */ (await fetchJson('links'))
 
     renderList('sub-pages', links, (/** @type {Link} */ link) => {
       return `
@@ -98,7 +99,7 @@ async function loadSocialLinks() {
 
 async function loadGames() {
   await runLoader('games', async () => {
-    const games = /** @type {Game[]} */ (await fetchJson('data/projects/games.json'))
+    const games = /** @type {Game[]} */ (await fetchJson('projects/games'))
 
     renderList('games-grid', games, (/** @type {Game} */ game) => {
       return `
@@ -112,7 +113,7 @@ async function loadGames() {
 
 async function loadSystems() {
   await runLoader('systems', async () => {
-    const systems = /** @type {System[]} */ (await fetchJson('data/projects/systems.json'))
+    const systems = /** @type {System[]} */ (await fetchJson('projects/systems'))
 
     renderList('systems-grid', systems, (/** @type {System} */ system) => {
       let description = `مطور باستخدام ${system.lang}`
@@ -134,7 +135,7 @@ async function loadSystems() {
 
 async function loadArts() {
   await runLoader('arts', async () => {
-    const arts = /** @type {Art[]} */ (await fetchJson('data/projects/arts.json'))
+    const arts = /** @type {Art[]} */ (await fetchJson('projects/arts'))
 
     renderList('arts-grid', arts, (/** @type {Art} */ art) => {
       return `
@@ -148,7 +149,7 @@ async function loadArts() {
 
 async function loadTeams() {
   await runLoader('teams', async () => {
-    const teams = /** @type {Team[]} */ (await fetchJson('data/teams.json'))
+    const teams = /** @type {Team[]} */ (await fetchJson('teams'))
 
     renderList(
       'teams-section',

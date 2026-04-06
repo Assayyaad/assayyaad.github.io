@@ -1,11 +1,11 @@
 [
   {
-    "name": "صفحة الروابط",
+    "name": "Links Page",
     "url": "https://links.assayyaad.pro",
     "icon": "material-symbols:link"
   },
   {
-    "name": "السيرة الذاتية",
+    "name": "CV Page",
     "url": "https://cv.assayyaad.pro",
     "icon": "pepicons-pencil:cv"
   }
