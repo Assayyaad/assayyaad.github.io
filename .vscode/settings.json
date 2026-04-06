@@ -1,16 +1,26 @@
 {
-  "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSaveMode": "file",
   "editor.formatOnSave": true,
-  "editor.trimAutoWhitespace": true,
   "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
   "editor.tabSize": 2,
 
-  "files.insertFinalNewline": true,
   "files.eol": "\n",
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": false,
 
-  "markdown.replaceSmartQuotes": true,
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+  "[css]": { "editor.defaultFormatter": "vscode.css-language-features" },
+
+  "[markdown]": { "editor.defaultFormatter": "yzhang.markdown-all-in-one" },
   "markdown.occurrencesHighlight.enabled": true,
   "markdown.extension.tableFormatter.normalizeIndentation": true,
+
+  "js/ts.suggest.jsdoc.generateReturns": true,
+  "js/ts.suggest.jsdoc.enabled": true,
+  "js/ts.suggest.autoImports": true,
+  "js/ts.implicitProjectConfig.checkJs": true,
+
   "iconify.annotations": true
 }
