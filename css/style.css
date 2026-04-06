@@ -19,8 +19,7 @@
   --color-blue-secondary: #0db7d5;
 
   /* Fonts */
-  --font-regular: 'Atkinson Hyperlegible Regular', sans-serif;
-  --font-bold: 'Atkinson Hyperlegible Bold', sans-serif;
+  --font: 'Atkinson Hyperlegible', sans-serif;
 
   /* Spacing */
   --space-xxs: 0.125rem;
@@ -49,7 +48,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--font-regular);
+  font-family: var(--font);
   color: var(--color-text);
 }
 
@@ -71,7 +70,8 @@ h2 {
 }
 
 h1 {
-  font-family: var(--font-bold);
+  font-family: var(--font);
+  font-weight: bold;
   font-size: 2rem;
   margin-bottom: var(--space-sm);
 }
@@ -220,7 +220,8 @@ p {
 
 .project-item h4 {
   color: var(--color-text);
-  font-family: var(--font-bold);
+  font-family: var(--font);
+  font-weight: bold;
   font-size: 1.2rem;
   margin-bottom: var(--space-sm);
 }
@@ -239,7 +240,8 @@ p {
 
 .subsection h3 {
   color: var(--color-text);
-  font-family: var(--font-bold);
+  font-family: var(--font);
+  font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: var(--space-md);
   text-align: center;
@@ -280,7 +282,8 @@ p {
 
 .team-item h3 {
   color: var(--color-text);
-  font-family: var(--font-bold);
+  font-family: var(--font);
+  font-weight: bold;
   font-size: 1.3rem;
   margin-bottom: var(--space-xs);
 }
@@ -301,13 +304,20 @@ p {
 
 /* ===== FONTS ===== */
 @font-face {
-  font-family: 'Atkinson Hyperlegible Regular';
+  font-family: 'Atkinson Hyperlegible';
   src: url('../fonts/AtkinsonHyperlegibleNext-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  
 }
 
 @font-face {
-  font-family: 'Atkinson Hyperlegible Bold';
+  font-family: 'Atkinson Hyperlegible';
   src: url('../fonts/AtkinsonHyperlegibleNext-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
@@ -458,7 +468,7 @@ p {
   color: var(--color-text);
   font-size: 2.2rem;
   margin: 0;
-  font-family: var(--font-bold);
+  font-family: var(--font);
   display: inline-block;
   padding: 0 var(--space-md);
   position: relative;
