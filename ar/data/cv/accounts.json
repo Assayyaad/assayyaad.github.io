@@ -1,0 +1,47 @@
+[
+  {
+    "name": "itch.io",
+    "link": "https://assayyaad.itch.io",
+    "icon": "cib:itch-io"
+  },
+  {
+    "name": "Global Game Jam",
+    "link": "https://globalgamejam.org/users/assayyaad",
+    "icon": "hugeicons:global"
+  },
+  {
+    "name": "Wakatime",
+    "link": "https://wakatime.com/@Assayyaad",
+    "icon": "simple-icons:wakatime"
+  },
+  {
+    "name": "GitLab",
+    "link": "https://gitlab.com/Assayyaad",
+    "icon": "ri:gitlab-fill"
+  },
+  {
+    "name": "GitHub",
+    "link": "https://github.com/Assayyaad",
+    "icon": "mdi:github"
+  },
+  {
+    "name": "Sololearn",
+    "link": "https://www.sololearn.com/en/profile/17032869",
+    "icon": "simple-icons:sololearn"
+  },
+  {
+    "name": "FreeCodeCamp",
+    "link": "https://www.freecodecamp.org/Assayyaad",
+    "icon": "simple-icons:freecodecamp"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://linkedin.com/in/Assayyaad",
+    "icon": "mdi:linkedin"
+  },
+  {
+    "name": "𝕏 (Twitter)",
+    "link": "https://x.com/Assayyaad",
+    "icon": "pajamas:twitter"
+  }
+]

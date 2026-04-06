@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta property="og:title" content="الصياد - السيرة الذاتية الاحترافية" />
+  <meta property="og:description" content="سيرة ذاتية مهنية تسلط الضوء على المهارات والخبرة في مجال تطوير الألعاب" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://assayyaad.pro/ar/cv" />
+  <meta property="og:locale" content="ar" />
+  <meta property="og:locale:alternate" content="en" />
+  <meta property="og:image" content="/img/logo.webp" />
+  <meta property="og:image:type" content="image/webp" />
+  <meta property="og:image:width" content="100px" />
+  <meta property="og:image:height" content="100px" />
+  <meta property="og:image:alt" content="logo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@assayyaad" />
+  <meta name="twitter:title" content="الصياد - السيرة الذاتية الاحترافية" />
+  <meta name="twitter:description" content="سيرة ذاتية مهنية تسلط الضوء على المهارات والخبرة في مجال تطوير الألعاب" />
+  <meta name="twitter:image" content="/img/logo.webp" />
+
+  <link rel="shortcut icon" href="/img/logo.webp" type="image/webp" />
+  <link rel="stylesheet" href="/css/cv.css" />
+  <link rel="stylesheet" href="/css/lang.css" />
+  <link rel="stylesheet" href="/css/theme.css" />
+
+  <title>الصياد - السيرة الذاتية الاحترافية</title>
+  <meta name="description" content="سيرة ذاتية مهنية تسلط الضوء على المهارات والخبرة في مجال تطوير الألعاب" />
+
+  <script src="https://code.iconify.design/2/2.0.0/iconify.min.js"></script>
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Assayyaad",
+        "jobTitle": "Game Developer",
+        "email": "hi@assayyaad.pro",
+        "telephone": "+966536700116",
+        "url": "https://assayyaad.pro/ar/cv",
+        "sameAs": [
+          "https://github.com/Assayyaad",
+          "https://x.com/assayyaad"
+        ],
+        "knowsAbout": ["Game Development", "Unity", "C#", "Mobile Development"]
+      }
+    </script>
+</head>
+
+<body>
+  <!-- Language Toggle Button -->
+  <button class="language-toggle" id="languageToggle" onclick="window.toggleLanguage()" aria-label="Switch Language">
+    <span class="iconify-inline icon" data-icon="material-symbols:translate"></span>
+    <span class="current-lang" id="currentLang">English</span>
+    <span class="separator">/</span>
+    <span class="alt-lang" id="altLang">العربية</span>
+  </button>
+
+  <!-- Header Section -->
+  <header>
+    <div id="header-content"></div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <!-- Personal Information -->
+      <section class="section">
+        <h2 data-translate="section.personal">المعلومات الشخصية</h2>
+        <dl class="side-section-content personal-info" id="personal-info-content"></dl>
+      </section>
+
+      <!-- Contact -->
+      <section class="section">
+        <h2 data-translate="section.contact">التواصل</h2>
+        <div class="side-section-content" id="contact-content"></div>
+      </section>
+
+      <!-- Accounts -->
+      <section class="section">
+        <h2 data-translate="section.social">الحسابات الاجتماعية</h2>
+        <div class="side-section-content" id="accounts-content"></div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section">
+        <h2 data-translate="section.skills">المهارات</h2>
+        <div class="side-section-content" id="skills-content"></div>
+      </section>
+
+      <!-- Tools -->
+      <section class="section">
+        <h2 data-translate="section.tools">الأدوات والتقنيات</h2>
+        <div class="side-section-content" id="tools-content"></div>
+      </section>
+
+      <!-- Languages -->
+      <section class="section">
+        <h2 data-translate="section.languages">اللغات</h2>
+        <div class="side-section-content" id="languages-content"></div>
+      </section>
+
+      <!-- Interests -->
+      <section class="section">
+        <h2 data-translate="section.interests">الاهتمامات</h2>
+        <div class="side-section-content interests" id="interests-content"></div>
+      </section>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Projects -->
+      <section class="section">
+        <h2 data-translate="section.projects">المشاريع</h2>
+        <div id="projects-content"></div>
+      </section>
+
+      <!-- Certificates -->
+      <section class="section">
+        <h2 data-translate="section.certificates">الشهادات</h2>
+        <div class="certificates-grid" id="certificates-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div id="footer-content">
+      <small class="text-grey"><span data-translate="footer.opensource">ملفات الموقع</span><a
+          href="https://github.com/Assayyaad/assayyaad.github.io" target="_blank"><span
+            data-translate="footer.opensource_link">مفتوحة المصدر</span></a>
+        <span data-translate="footer.licensed">وضمن ترخيص</span>
+        <a href="https://gitlab.com/-/snippets/4888680" target="_blank"><span
+            data-translate="footer.license">وقف</span></a>
+      </small>
+    </div>
+  </footer>
+
+  <script src="/js/cv.js" type="module"></script>
+  <script src="/js/cv/lang.js" type="module"></script>
+</body>
+
+</html>
