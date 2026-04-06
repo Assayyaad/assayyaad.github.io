@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Qabilah",
+    "url": "https://qabilah.com/profile/assayyaad/professional-profile",
+    "icon": "game-icons:camel-head"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://linkedin.com/in/assayyaad",
+    "icon": "ri:linkedin-fill"
+  },
+  {
+    "name": "𝕏",
+    "url": "https://x.com/assayyaad",
+    "icon": "ri:twitter-x-fill"
+  },
+  {
+    "name": "itch.io",
+    "url": "https://assayyaad.itch.io",
+    "icon": "simple-icons:itchdotio"
+  },
+  {
+    "name": "GitLab",
+    "url": "https://gitlab.com/assayyaad",
+    "icon": "ri:gitlab-fill"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/assayyaad",
+    "icon": "ri:github-fill"
+  }
+]

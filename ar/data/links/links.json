@@ -1,0 +1,175 @@
+[
+  {
+    "name": "فضاء الألعاب",
+    "url": "https://alaab.space/ar/",
+    "tag": "تعلم عن صناعة الألعاب"
+  },
+  {
+    "name": "مركز لسان: 日本語",
+    "url": "https://ja.lisan.center",
+    "tag": "تعلم اليابانية"
+  },
+  {
+    "name": "قادة دسكورد",
+    "url": "https://links.disqada.org",
+    "tag": "برمج آليك الخاص"
+  },
+  {
+    "category": "تواصل",
+    "items": [
+      {
+        "name": "Discord",
+        "url": "https://discordapp.com/users/734365620543422555",
+        "icon": "fa6-brands:discord"
+      },
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/+966536700116",
+        "icon": "fa6-brands:whatsapp"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/assayyaad",
+        "icon": "fa6-brands:telegram"
+      },
+      {
+        "name": "Signal",
+        "url": "https://signal.me/#eu/QNEPMAlsSmvNO6X70PUeVZRUcJxxwNvOkGVDWTClhB71yjK4QFpIuZduHuHaTbTP",
+        "icon": "simple-icons:signal"
+      }
+    ]
+  },
+  {
+    "category": "تطوير الألعاب",
+    "items": [
+      {
+        "name": "itch.io",
+        "url": "https://assayyaad.itch.io",
+        "icon": "fa6-brands:itch-io"
+      },
+      {
+        "name": "Game Jolt",
+        "url": "https://gamejolt.com/@assayyaad",
+        "icon": "simple-icons:gamejolt"
+      },
+      {
+        "name": "Global Game Jam",
+        "url": "https://globalgamejam.org/users/assayyaad"
+      },
+      {
+        "name": "The Gaming Nest",
+        "url": "https://thegamingnest.com/ar/developers/a82aa554-8514-4405-b880-c79bba95e60f"
+      },
+      {
+        "name": "GameDev Freelance",
+        "url": "https://www.gamedevfreelance.com/users/assayyaad"
+      },
+      {
+        "name": "Game Dev",
+        "url": "https://gamedev.net/assayyaad"
+      },
+      {
+        "name": "IndieDB",
+        "url": "https://indiedb.com/members/assayyaad"
+      }
+    ]
+  },
+  {
+    "category": "برمجة",
+    "items": [
+      {
+        "category": "مشاريع",
+        "items": [
+          {
+            "name": "Wakatime",
+            "url": "https://wakatime.com/@assayyaad",
+            "icon": "simple-icons:wakatime"
+          },
+          {
+            "name": "GitLab",
+            "url": "https://gitlab.com/assayyaad",
+            "icon": "ri:gitlab-fill"
+          },
+          {
+            "name": "Github",
+            "url": "https://github.com/assayyaad",
+            "icon": "fa6-brands:github"
+          },
+          {
+            "name": "npm",
+            "url": "https://npmjs.com/~nabil_alsaiad",
+            "icon": "simple-icons:npm"
+          },
+          {
+            "name": "jsr",
+            "url": "https://jsr.io/user/4e67ad39-f242-489c-a307-ad57de654359",
+            "icon": "simple-icons:jsr"
+          },
+          {
+            "name": "Paste Bin",
+            "url": "https://pastebin.com/u/Assayyaad",
+            "icon": "simple-icons:pastebin"
+          }
+        ]
+      },
+      {
+        "category": "تدريب",
+        "items": [
+          {
+            "name": "Codecademy",
+            "url": "https://www.pjtra.com/t/8-12462-294213-213588?url=https%3A%2F%2Fwww.codecademy.com%2Fprofiles%2FAssayyaadAssayyaad",
+            "icon": "simple-icons:codecademy"
+          },
+          {
+            "name": "Solo Learn",
+            "url": "https://sololearn.com/profile/17032869",
+            "icon": "simple-icons:sololearn"
+          },
+          {
+            "name": "Free Code Camp",
+            "url": "https://freecodecamp.org/Assayyaad",
+            "icon": "simple-icons:freecodecamp"
+          },
+          {
+            "name": "Boot.dev",
+            "url": "https://www.boot.dev/u/assayyaad"
+          },
+          {
+            "name": "Exercism",
+            "url": "https://exercism.org/profiles/Assayyaad",
+            "icon": "simple-icons:exercism"
+          },
+          {
+            "name": "HackerRank",
+            "url": "https://hackerrank.com/profile/Assayyaad",
+            "icon": "fa6-brands:hackerrank"
+          },
+          {
+            "name": "سطر",
+            "url": "https://profile.satr.codes/assayyaad/public"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "فنون",
+    "items": [
+      {
+        "name": "Artstation",
+        "url": "https://artstation.com/assayyaad",
+        "icon": "fa6-brands:artstation"
+      },
+      {
+        "name": "Behance",
+        "url": "https://behance.net/assayyaad",
+        "icon": "fa6-brands:behance"
+      },
+      {
+        "name": "Sketchfab",
+        "url": "https://sketchfab.com/assayyaad",
+        "icon": "simple-icons:sketchfab"
+      }
+    ]
+  }
+]
