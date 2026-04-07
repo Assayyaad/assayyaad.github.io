@@ -2,52 +2,52 @@
   {
     "name": "إزرع الوردة",
     "url": "https://assayyaad.itch.io/plant-the-flower",
-    "imgUrl": "https://img.itch.zone/aW1nLzIwMDk5ODc4LnBuZw==/315x250%23c/q95PnF.png",
+    "imgUrl": "/img/index/games/plant-the-flower.webp",
     "jam": "Saudi Game Jam 2022"
   },
   {
     "name": "جيد هنا، سيء هناك",
     "url": "https://assayyaad.itch.io/good-here-bad-there",
-    "imgUrl": "https://img.itch.zone/aW1nLzEyMzE1ODEyLnBuZw==/315x250%23c/gXe19v.png",
+    "imgUrl": "/img/index/games/good-here-bad-there.webp",
     "jam": "The GameDev.tv Game Jam 2023"
   },
   {
     "name": "اهرب",
     "url": "https://assayyaad.itch.io/escape",
-    "imgUrl": "https://img.itch.zone/aW1nLzIwMTAyMzg3LnBuZw==/315x250%23c/TKNjBR.png"
+    "imgUrl": "/img/index/games/escape.webp"
   },
   {
     "name": "لا تطلق عليهم النار",
     "url": "https://assayyaad.itch.io/dont-shoot-them",
-    "imgUrl": "https://img.itch.zone/aW1nLzEyODUwMTA4LnBuZw==/315x250%23c/T0gkAS.png",
+    "imgUrl": "/img/index/games/dont-shoot-them.webp",
     "jam": "Game Zanga 12"
   },
   {
     "name": "تحدي الزنزانة",
     "url": "https://assayyaad.itch.io/challenge-dungeon",
-    "imgUrl": "https://img.itch.zone/aW1nLzIyMzAzMTIxLnBuZw==/315x250%23c/Qga%2BW0.png"
+    "imgUrl": "/img/index/games/gridungeon.webp"
   },
   {
     "name": "لا وطن آمن",
     "url": "https://assayyaad.itch.io/no-safe-home",
-    "imgUrl": "https://img.itch.zone/aW1nLzIwOTE0OTIyLnBuZw==/315x250%23c/jXbml%2F.png"
+    "imgUrl": "/img/index/games/no-safe-home.webp"
   },
   {
     "name": "رحلة المقاتل",
     "url": "https://assayyaad.itch.io/fighter-journey",
-    "imgUrl": "https://img.itch.zone/aW1nLzIxMzQ2NDE0LnBuZw==/315x250%23c/NJmrds.png",
+    "imgUrl": "/img/index/games/fighter-journey.webp",
     "jam": "MMU Game Developers Club Game Jam 2025"
   },
   {
     "name": "سيطر على التحكم",
     "url": "https://assayyaad.itch.io/take-over-control",
-    "imgUrl": "https://img.itch.zone/aW1nLzEwODEwMjgwLnBuZw==/315x250%23c/FbK5oT.png",
+    "imgUrl": "/img/index/games/take-over-control.webp",
     "jam": "Mini SaudiGJ 1"
   },
   {
     "name": "كرة الدهون",
     "url": "https://globalgamejam.org/games/2024/very-fat-2",
-    "imgUrl": "https://ggjv4.s3.us-west-1.amazonaws.com/files/styles/list_teaser/s3/games/2024/785948/featured/icon.jpg",
+    "imgUrl": "/img/index/games/ball-of-fat.webp",
     "jam": "Global Game Jam 2024"
   }
 ]

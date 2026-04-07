@@ -2,7 +2,7 @@
   {
     "name": "خوارزميات وهياكل بيانات JavaScript",
     "id": "",
-    "image": "/img/cert/javascript-algorithms-and-data-structures.png",
+    "image": "/img/cv/cert/javascript-algorithms-and-data-structures.webp",
     "link": "https://freecodecamp.org/certification/Assayyaad/javascript-algorithms-and-data-structures",
     "provider": {
       "name": "FreeCodeCamp",
@@ -13,7 +13,7 @@
   {
     "name": "مقدمة في C#",
     "id": "CC-KQMDTAMA",
-    "image": "/img/cert/introduction-to-csharp.png",
+    "image": "/img/cv/cert/introduction-to-csharp.webp",
     "link": "https://www.sololearn.com/en/certificates/CC-KQMDTAMA",
     "provider": {
       "name": "Sololearn",
@@ -24,7 +24,7 @@
   {
     "name": "مقدمة في JavaScript",
     "id": "CC-7A1QGUWT",
-    "image": "/img/cert/introduction-to-javascript.png",
+    "image": "/img/cv/cert/introduction-to-javascript.webp",
     "link": "https://www.sololearn.com/en/certificates/CC-7A1QGUWT",
     "provider": {
       "name": "Sololearn",
@@ -35,7 +35,7 @@
   {
     "name": "مقدمة في C++",
     "id": "CT-DKF29HTQ",
-    "image": "/img/cert/cplusplus.png",
+    "image": "/img/cv/cert/cplusplus.webp",
     "link": "https://www.sololearn.com/en/certificates/CT-DKF29HTQ",
     "provider": {
       "name": "Sololearn",
@@ -46,7 +46,7 @@
   {
     "name": "التقنية للجميع",
     "id": "CC-49YAACNH",
-    "image": "/img/cert/tech-for-everyone.png",
+    "image": "/img/cv/cert/tech-for-everyone.webp",
     "link": "https://api2.sololearn.com/v2/certificates/CC-49YAACNH/image/png",
     "provider": {
       "name": "Sololearn",
