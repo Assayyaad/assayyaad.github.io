@@ -127,7 +127,7 @@ body.dark {
 ```
 ├── index.html              # Main HTML file
 ├── style.css              # Styles and design
-├── assets/
+├── img/
 │   └── logo.webp           # Site logo
 ├── data/
 │   ├── links.json         # Main links and categories

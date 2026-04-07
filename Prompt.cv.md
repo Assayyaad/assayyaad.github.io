@@ -9,7 +9,7 @@ Create a professional, text-oriented CV static site using native HTML/CSS/JS wit
 project-root/
 ├── index.html
 ├── style.css
-├── assets/
+├── img/
 │   └── cert/
 ├── src/
 │   ├── index.js
