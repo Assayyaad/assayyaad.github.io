@@ -1,12 +1,12 @@
 [
   {
     "name": "Links Page",
-    "url": "https://links.assayyaad.pro",
+    "url": "/en/links",
     "icon": "material-symbols:link"
   },
   {
     "name": "CV Page",
-    "url": "https://cv.assayyaad.pro",
+    "url": "/en/cv",
     "icon": "pepicons-pencil:cv"
   }
 ]
