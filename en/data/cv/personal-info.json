@@ -1,5 +1,5 @@
 {
-  "name": "Assayyaad",
-  "age": 23,
-  "sex": "Male"
+  "name": ["Name", "Assayyaad"],
+  "age": ["Age", 23],
+  "sex": ["Gender", "Male"]
 }

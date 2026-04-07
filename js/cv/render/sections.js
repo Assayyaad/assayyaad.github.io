@@ -23,16 +23,10 @@ export function renderHeader({ title, tagline }) {
  * @returns {string} HTML string for personal info
  */
 export function renderPersonalInfo({ name, age, sex }) {
-  const lang = getLang()
-
-  const nameKey = lang === 'ar' ? 'الاسم' : 'Name'
-  const ageKey = lang === 'ar' ? 'العمر' : 'Age'
-  const sexKey = lang === 'ar' ? 'الجنس' : 'Gender'
-
   return render.container.empty(
-    render.item.keyValue(nameKey, name),
-    render.item.keyValue(ageKey, age.toString()),
-    render.item.keyValue(sexKey, sex)
+    render.item.keyValue(name[0], name[1]),
+    render.item.keyValue(age[0], age[1].toString()),
+    render.item.keyValue(sex[0], sex[1])
   )
 }
 
@@ -205,14 +199,6 @@ export function renderLanguages(data) {
   function renderLanguage({ name, efficiency }) {
     return render.container.div(type, [render.item.name(name, type), render.item.name(efficiency, type)])
   }
-}
-
-/**
- * @returns {LangCode} lang - Language object
- */
-function getLang() {
-  // @ts-expect-error
-  return document.documentElement.lang || 'ar'
 }
 
 export default {

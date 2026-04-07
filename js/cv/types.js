@@ -1,7 +1,7 @@
 export {}
 
-/** @typedef {'Male' | 'Female'} Sex */
-/** @typedef {'Native' | 'Fluent' | 'Intermediate' | 'Basic'} LanguageEfficiency */
+/** @typedef {string} Sex */
+/** @typedef {string} LanguageEfficiency */
 /** @typedef {`${string}@${string}.${string}`} Email */
 /** @typedef {`+${string}`} Phone */
 /** @typedef {`${string}-${string}`} DateStr */
@@ -14,9 +14,9 @@ export {}
 
 /**
  * @typedef {Object} PersonalInfo
- * @property {string} name
- * @property {number} age
- * @property {Sex} sex
+ * @property {[string, string]} name
+ * @property {[string, number]} age
+ * @property {[string, Sex]} sex
  */
 
 /**

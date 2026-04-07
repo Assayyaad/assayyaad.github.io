@@ -6,18 +6,28 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string",
-      "description": "Full name of the person"
+      "type": "array",
+      "description": "Tuple of [label, full name]",
+      "items": [{ "type": "string" }, { "type": "string" }],
+      "minItems": 2,
+      "maxItems": 2,
+      "additionalItems": false
     },
     "age": {
-      "type": "number",
-      "description": "Age in years",
-      "minimum": 0
+      "type": "array",
+      "description": "Tuple of [label, age in years]",
+      "items": [{ "type": "string" }, { "type": "number", "minimum": 0 }],
+      "minItems": 2,
+      "maxItems": 2,
+      "additionalItems": false
     },
     "sex": {
-      "type": "string",
-      "enum": ["Male", "Female"],
-      "description": "Biological sex"
+      "type": "array",
+      "description": "Tuple of [label, biological sex]",
+      "items": [{ "type": "string" }, { "type": "string", "enum": ["Male", "Female"] }],
+      "minItems": 2,
+      "maxItems": 2,
+      "additionalItems": false
     }
   },
   "required": ["name", "age", "sex"],
