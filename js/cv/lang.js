@@ -3,11 +3,8 @@
 // Global variable to track current language
 /** @type {LangCode} */
 let currLang = 'ar'
-/** @type {Record<LangCode, Record<string, string>>} */
-let translations = {
-  ar: {},
-  en: {}
-}
+/** @type {Record<string, string>} */
+let translations = {}
 
 /** @type {Record<LangCode, Lang>} */
 export const langs = {
@@ -15,107 +12,37 @@ export const langs = {
   en: { code: 'en', name: 'English', dir: 'ltr' }
 }
 
-// Language toggle functionality
-function toggleLanguage() {
-  const toggleButton = document.getElementById('languageToggle')
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', async () => {
+  const firstSegment = window.location.pathname.split('/').filter(Boolean)[0]
+  currLang = firstSegment === 'en' ? 'en' : 'ar'
 
-  // Add switching animation
-  toggleButton?.classList.add('switching')
-
-  // Toggle language
-  currLang = currLang === 'ar' ? 'en' : 'ar'
-  updateLanguageDisplay()
-
-  // Store language preference
-  localStorage.setItem('preferredLanguage', currLang)
-
-  // Apply translations
-  applyTranslations()
-
-  // Reload content with new language
-  reloadContentWithLanguage()
-
-  // Remove animation class
-  setTimeout(() => {
-    toggleButton?.classList.remove('switching')
-  }, 400)
-}
-
-// Apply translations to elements with data-translate attribute
-function applyTranslations() {
-  const elements = document.querySelectorAll('[data-translate]')
-
-  elements.forEach((el) => {
-    const key = el.getAttribute('data-translate') || ''
-    if (translations[currLang] && translations[currLang][key]) {
-      el.textContent = translations[currLang][key]
-    }
-  })
-}
-
-// Load translations
-async function loadTranslations() {
   try {
-    const res = await fetch('data/translations.json')
+    const res = await fetch('data/cv/translations.json')
     if (res.ok) {
       translations = await res.json()
     }
   } catch (error) {
     console.warn('Could not load translations:', error)
   }
-}
-
-// Reload content with current language
-function reloadContentWithLanguage() {
-  // Add fade effect
-  const mainContent = document.querySelector('.container')
-  mainContent?.classList.add('content-fade')
-
-  setTimeout(() => {
-    // This would trigger your existing content loading logic
-    // but with the current language parameter
-    window.location.reload() // Simple approach - reload page
-
-    // Alternative: You could modify your existing JS to reload sections
-    // loadAllSectionsWithLanguage(currentLanguage);
-  }, 200)
-}
-
-// Initialize language on page load
-function initializeLanguage() {
-  // Check for stored preference
-  const storedLang = localStorage.getItem('preferredLanguage')
-  if (storedLang && (storedLang === 'en' || storedLang === 'ar')) {
-    currLang = storedLang
-  }
-
-  updateLanguageDisplay()
-}
-
-function updateLanguageDisplay() {
-  const currentLangSpan = document.getElementById('currentLang')
-  const altLangSpan = document.getElementById('altLang')
-
-  if (currentLangSpan && altLangSpan) {
-    if (currLang === 'ar') {
-      currentLangSpan.textContent = 'عربي'
-      altLangSpan.textContent = 'EN'
-    } else {
-      currentLangSpan.textContent = 'EN'
-      altLangSpan.textContent = 'عربي'
-    }
-  }
-
-  document.documentElement.lang = langs[currLang].code
-  document.documentElement.dir = langs[currLang].dir
-}
-
-// Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', async () => {
-  await loadTranslations()
-  initializeLanguage()
-  applyTranslations()
 })
+
+// Language toggle functionality
+function toggleLanguage() {
+  const nextLang = currLang === 'ar' ? 'en' : 'ar'
+  const parts = window.location.pathname.split('/').filter(Boolean)
+
+  if (parts.length === 0) {
+    window.location.pathname = `/${nextLang}/`
+    return
+  }
+
+  if (parts[0] === 'ar' || parts[0] === 'en') parts[0] = nextLang
+  else parts.unshift(nextLang)
+
+  const nextPath = `/${parts.join('/')}`
+  window.location.assign(`${nextPath}${window.location.search}${window.location.hash}`)
+}
 
 // @ts-expect-error - Expose toggleLanguage globally for inline onclick
 window['toggleLanguage'] = toggleLanguage

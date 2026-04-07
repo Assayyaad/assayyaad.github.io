@@ -8,15 +8,15 @@ export {}
 
 /**
  * @typedef {Object} Header
- * @property {MultiLang<string>} title
- * @property {MultiLang<string>} tagline
+ * @property {string} title
+ * @property {string} tagline
  */
 
 /**
  * @typedef {Object} PersonalInfo
- * @property {MultiLang<string>} name
+ * @property {string} name
  * @property {number} age
- * @property {MultiLang<Sex>} sex
+ * @property {Sex} sex
  */
 
 /**
@@ -34,15 +34,15 @@ export {}
 
 /**
  * @typedef {Object} Project
- * @property {MultiLang<string>} name
+ * @property {string} name
  * @property {string} link
  * @property {DateStr} date - Format: "YYYY-MM"
- * @property {MultiLang<string>} description
+ * @property {string} description
  */
 
 /**
  * @typedef {Object} Certificate
- * @property {MultiLang<string>} name
+ * @property {string} name
  * @property {string} id
  * @property {string} image
  * @property {string} link
@@ -58,7 +58,7 @@ export {}
 
 /**
  * @typedef {Object} Skill
- * @property {MultiLang<string>} name
+ * @property {string} name
  * @property {number} efficiency - Scale 1-10
  */
 
@@ -72,19 +72,14 @@ export {}
 
 /**
  * @typedef {Object} Interest
- * @property {MultiLang<string>} name
+ * @property {string} name
  * @property {string} icon - Emoji or icon class
  */
 
 /**
  * @typedef {Object} Language
- * @property {MultiLang<string>} name
- * @property {MultiLang<LanguageEfficiency>} efficiency - e.g., "Native", "Fluent", "Intermediate"
- */
-
-/**
- * @template {string} Value
- * @typedef {Record<LangCode, Value>} MultiLang
+ * @property {string} name
+ * @property {LanguageEfficiency} efficiency - e.g., "Native", "Fluent", "Intermediate"
  */
 
 // language

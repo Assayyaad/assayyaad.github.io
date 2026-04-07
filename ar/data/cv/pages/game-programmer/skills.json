@@ -1,135 +1,78 @@
 [
   {
-    "name": {
-      "ar": "حل المشاكل",
-      "en": "Problem Solving"
-    },
+    "name": "حل المشاكل",
     "efficiency": 10
   },
   {
-    "name": {
-      "ar": "البرمجة الكائنية التوجه",
-      "en": "Object-Oriented Programming"
-    },
+    "name": "البرمجة الكائنية التوجه",
     "efficiency": 10
   },
   {
-    "name": {
-      "ar": "البرمجة الوظيفية",
-      "en": "Functional Programming"
-    },
+    "name": "البرمجة الوظيفية",
     "efficiency": 8
   },
   {
-    "name": {
-      "ar": "تحليل الترميز",
-      "en": "Code Analysis"
-    },
+    "name": "تحليل الترميز",
     "efficiency": 9
   },
   {
-    "name": {
-      "ar": "إكتشاف الأخطاء",
-      "en": "Debugging"
-    },
+    "name": "إكتشاف الأخطاء",
     "efficiency": 9
   },
   {
-    "name": {
-      "ar": "إختبار البرمجيات",
-      "en": "Software Testing"
-    },
+    "name": "إختبار البرمجيات",
     "efficiency": 6
   },
   {
-    "name": {
-      "ar": "تصميم البرمجيات",
-      "en": "Software Design"
-    },
+    "name": "تصميم البرمجيات",
     "efficiency": 8
   },
   {
-    "name": {
-      "ar": "توثيق البرمجيات",
-      "en": "Software Documentation"
-    },
+    "name": "توثيق البرمجيات",
     "efficiency": 6
   },
   {
-    "name": {
-      "ar": "أنماط التصميم",
-      "en": "Design Patterns"
-    },
+    "name": "أنماط التصميم",
     "efficiency": 5
   },
   {
-    "name": {
-      "ar": "هياكل البيانات",
-      "en": "Data Structures"
-    },
+    "name": "هياكل البيانات",
     "efficiency": 8
   },
   {
-    "name": {
-      "ar": "برمجة بالذكاء الاصطناعي",
-      "en": "Programming with AI"
-    },
+    "name": "برمجة بالذكاء الاصطناعي",
     "efficiency": 5
   },
   {
-    "name": {
-      "ar": "برمجة C#",
-      "en": "C# Programming"
-    },
+    "name": "برمجة C#",
     "efficiency": 10
   },
   {
-    "name": {
-      "ar": "برمجة C++",
-      "en": "C++ Programming"
-    },
+    "name": "برمجة C++",
     "efficiency": 3
   },
   {
-    "name": {
-      "ar": "برمجة Java",
-      "en": "Java Programming"
-    },
+    "name": "برمجة Java",
     "efficiency": 3
   },
   {
-    "name": {
-      "ar": "برمجة JavaScript",
-      "en": "JavaScript Programming"
-    },
+    "name": "برمجة JavaScript",
     "efficiency": 10
   },
   {
-    "name": {
-      "ar": "برمجة GDScript",
-      "en": "GDScript Programming"
-    },
+    "name": "برمجة GDScript",
     "efficiency": 2
   },
   {
-    "name": {
-      "ar": "برمجة Odin",
-      "en": "Odin Programming"
-    },
+    "name": "برمجة Odin",
     "efficiency": 1
   },
   {
-    "name": {
-      "ar": "برمجة Rust",
-      "en": "Rust Programming"
-    },
+    "name": "برمجة Rust",
     "efficiency": 1
   },
   {
-    "name": {
-      "ar": "Git",
-      "en": "Git"
-    },
+    "name": "Git",
     "efficiency": 7
   }
 ]

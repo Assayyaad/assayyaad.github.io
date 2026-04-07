@@ -1,11 +1,5 @@
 {
-  "name": {
-    "en": "Assayyaad",
-    "ar": "الصياد"
-  },
+  "name": "Assayyaad",
   "age": 23,
-  "sex": {
-    "en": "Male",
-    "ar": "ذكر"
-  }
+  "sex": "Male"
 }
