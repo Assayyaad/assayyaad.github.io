@@ -14,7 +14,6 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--font-family-sans);
   font-size: 14px;
   font-weight: 500;
   color: var(--key-text-color);

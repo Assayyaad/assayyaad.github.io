@@ -25,8 +25,4 @@
 
   --highlight-color: #ffeb3b; /* Highlight color - bright yellow for emphasis */
 
-  --font-family-sans: -apple-system, 'BlinkMacSystemFont', 'Avenir',
-    'Avenir Next', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  --font-family-mono: monaco, 'Consolas', 'Lucida Console', monospace;
 }

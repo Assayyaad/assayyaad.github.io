@@ -10,9 +10,6 @@
   --grid-gutter: 2rem;
   --font-size: 1.6rem;
   --font-color: #333;
-  --font-family-sans: -apple-system, 'BlinkMacSystemFont', 'Avenir', 'Avenir Next', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  --font-family-mono: monaco, 'Consolas', 'Lucida Console', monospace;
   --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);
   --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.15);
   --border-radius: 12px;
@@ -38,7 +35,7 @@ body {
   line-height: 1.7;
   font-size: var(--font-size);
   color: var(--font-color);
-  font-family: 'Inter', 'Segoe UI', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
   margin: 0;
   padding: 0;
   min-height: 100vh;
