@@ -13,7 +13,7 @@
       },
       "efficiency": {
         "type": "string",
-        "enum": ["Native", "Fluent", "Intermediate", "Basic"],
+        "enum": ["أصيلة", "طلقة", "متوسطة", "أساسية"],
         "description": "مستوى إتقان اللغة"
       }
     },

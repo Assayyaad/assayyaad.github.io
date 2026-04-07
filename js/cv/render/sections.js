@@ -1,4 +1,4 @@
-/** @import { Account, Certificate, Contact, Header, Interest, LangCode, Language, PersonalInfo, Project, Skill, Tool } from '../types.js' */
+/** @import { Account, Certificate, Contact, Header, Interest, Language, PersonalInfo, Project, Skill, Tool } from '../types.js' */
 
 import containerRenderers from './containers.js'
 import itemRenderers from './items.js'

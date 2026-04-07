@@ -128,7 +128,7 @@ export function renderDate(str, type) {
    */
   function formatDate(str) {
     const [year, month] = str.split('-')
-    const monthNames = {
+    const monthNames = Object.freeze({
       ar: [
         'يناير',
         'فبراير',
@@ -157,7 +157,7 @@ export function renderDate(str, type) {
         'November',
         'December'
       ]
-    }
+    })
 
     return `${monthNames[lang][parseInt(month) - 1]} ${year}`
   }

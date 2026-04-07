@@ -2,6 +2,7 @@ export {}
 
 /** @typedef {string} Sex */
 /** @typedef {string} LanguageEfficiency */
+/** @typedef {1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10} Efficiency */
 /** @typedef {`${string}@${string}.${string}`} Email */
 /** @typedef {`+${string}`} Phone */
 /** @typedef {`${string}-${string}`} DateStr */
@@ -59,7 +60,7 @@ export {}
 /**
  * @typedef {Object} Skill
  * @property {string} name
- * @property {number} efficiency - Scale 1-10
+ * @property {Efficiency} efficiency - Scale 1-10
  */
 
 /**
