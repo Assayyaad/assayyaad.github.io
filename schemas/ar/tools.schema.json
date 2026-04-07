@@ -2,28 +2,29 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "tools.schema.json",
 
-  "title": "Tools",
+  "title": "أدوات",
   "type": "array",
   "items": {
     "type": "object",
     "properties": {
       "name": {
         "type": "string",
-        "description": "Name of the tool"
+        "description": "اسم الأداة"
       },
       "icon": {
         "type": "string",
-        "description": "Icon identifier or class"
+        "pattern": "^[a-z0-9]+(?:[-_][a-z0-9]+)*:[a-z0-9]+(?:[-_][a-z0-9]+)*$",
+        "description": "معرّف Iconify"
       },
       "link": {
         "type": "string",
         "format": "uri",
-        "description": "Link to the tool"
+        "description": "رابط إلى الأداة"
       },
       "yearsOfExperience": {
         "type": "number",
         "minimum": 0,
-        "description": "Years of experience with the tool (greater than 0)"
+        "description": "سنوات الخبرة مع الأداة (أكبر من أو يساوي 0)"
       }
     },
     "required": ["name", "icon", "link", "yearsOfExperience"],

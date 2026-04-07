@@ -22,5 +22,88 @@
   "js/ts.suggest.autoImports": true,
   "js/ts.implicitProjectConfig.checkJs": true,
 
-  "iconify.annotations": true
+  "iconify.annotations": true,
+
+  "json.schemas": [
+    {
+      "fileMatch": ["/ar/data/cv/personal-info.json"],
+      "url": "/schemas/ar/personal-info.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/contact.json"],
+      "url": "/schemas/ar/contact.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/accounts.json"],
+      "url": "/schemas/ar/accounts.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/pages/*/certificates.json"],
+      "url": "/schemas/ar/certificates.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/pages/*/header.json"],
+      "url": "/schemas/ar/header.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/pages/*/interests.json"],
+      "url": "/schemas/ar/interests.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/pages/*/languages.json"],
+      "url": "/schemas/ar/languages.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/pages/*/projects.json"],
+      "url": "/schemas/ar/projects.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/pages/*/skills.json"],
+      "url": "/schemas/ar/skills.schema.json"
+    },
+    {
+      "fileMatch": ["/ar/data/cv/pages/*/tools.json"],
+      "url": "/schemas/ar/tools.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/personal-info.json"],
+      "url": "/schemas/en/personal-info.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/contact.json"],
+      "url": "/schemas/en/contact.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/accounts.json"],
+      "url": "/schemas/en/accounts.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/pages/*/certificates.json"],
+      "url": "/schemas/en/certificates.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/pages/*/header.json"],
+      "url": "/schemas/en/header.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/pages/*/interests.json"],
+      "url": "/schemas/en/interests.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/pages/*/languages.json"],
+      "url": "/schemas/en/languages.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/pages/*/projects.json"],
+      "url": "/schemas/en/projects.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/pages/*/skills.json"],
+      "url": "/schemas/en/skills.schema.json"
+    },
+    {
+      "fileMatch": ["/en/data/cv/pages/*/tools.json"],
+      "url": "/schemas/en/tools.schema.json"
+    }
+  ]
 }

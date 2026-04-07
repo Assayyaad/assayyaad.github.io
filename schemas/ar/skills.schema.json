@@ -1,20 +1,21 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "languages.schema.json",
+  "$id": "skills.schema.json",
 
-  "title": "Languages",
+  "title": "المهارات",
   "type": "array",
   "items": {
     "type": "object",
     "properties": {
       "name": {
         "type": "string",
-        "description": "Name of the language"
+        "description": "اسم المهارة"
       },
       "efficiency": {
-        "type": "string",
-        "enum": ["Native", "Fluent", "Intermediate", "Basic"],
-        "description": "Language proficiency level"
+        "type": "number",
+        "minimum": 1,
+        "maximum": 10,
+        "description": "كفاءة المهارة على مقياس من 1 إلى 10"
       }
     },
     "required": ["name", "efficiency"],

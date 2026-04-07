@@ -2,12 +2,12 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "personal-info.schema.json",
 
-  "title": "PersonalInfo",
+  "title": "المعلومات الشخصية",
   "type": "object",
   "properties": {
     "name": {
       "type": "array",
-      "description": "Tuple of [label, full name]",
+      "description": "زوج من القيم [التسمية، الاسم الكامل]",
       "items": [{ "type": "string" }, { "type": "string" }],
       "minItems": 2,
       "maxItems": 2,
@@ -15,7 +15,7 @@
     },
     "age": {
       "type": "array",
-      "description": "Tuple of [label, age in years]",
+      "description": "زوج من القيم [التسمية، العمر بالسنوات]",
       "items": [{ "type": "string" }, { "type": "number", "minimum": 0 }],
       "minItems": 2,
       "maxItems": 2,
@@ -23,7 +23,7 @@
     },
     "sex": {
       "type": "array",
-      "description": "Tuple of [label, biological sex]",
+      "description": "زوج من القيم [التسمية، الجنس البيولوجي]",
       "items": [{ "type": "string" }, { "type": "string", "enum": ["ذكر", "أنثى"] }],
       "minItems": 2,
       "maxItems": 2,

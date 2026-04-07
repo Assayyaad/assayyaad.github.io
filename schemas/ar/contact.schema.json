@@ -2,18 +2,18 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "contact.schema.json",
 
-  "title": "Contact",
+  "title": "التواصل",
   "type": "object",
   "properties": {
     "email": {
       "type": "string",
       "pattern": "^[^@]+@[^@]+\\.[^@]+$",
-      "description": "Email address in format: string@string.string"
+      "description": "عنوان البريد الإلكتروني بالصيغة: string@string.string"
     },
     "phone": {
       "type": "string",
       "pattern": "^\\+.+$",
-      "description": "Phone number starting with +"
+      "description": "رقم الهاتف الذي يبدأ بعلامة +"
     }
   },
   "required": ["email", "phone"],

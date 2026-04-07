@@ -13,7 +13,7 @@
       },
       "icon": {
         "type": "string",
-        "description": "Emoji or icon class representing the interest"
+        "description": "An emoji or valid Iconify icon ID to represent the interest"
       }
     },
     "required": ["name", "icon"],

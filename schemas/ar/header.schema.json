@@ -2,16 +2,16 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "header.schema.json",
 
-  "title": "Header",
+  "title": "الترويسة",
   "type": "object",
   "properties": {
     "title": {
       "type": "string",
-      "description": "The main title"
+      "description": "العنوان الرئيسي"
     },
     "tagline": {
       "type": "string",
-      "description": "The tagline or subtitle"
+      "description": "الشعار أو العنوان الفرعي"
     }
   },
   "required": ["title", "tagline"],

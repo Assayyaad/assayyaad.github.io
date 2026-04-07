@@ -29,7 +29,7 @@ export {}
  * @typedef {Object} Account
  * @property {string} name
  * @property {string} link
- * @property {string} icon
+ * @property {string} icon - Valid Iconify icon ID
  */
 
 /**
@@ -53,7 +53,7 @@ export {}
  * @typedef {Object} Provider
  * @property {string} name
  * @property {string} link
- * @property {string} icon
+ * @property {string} icon - Valid Iconify icon ID
  */
 
 /**
@@ -65,15 +65,15 @@ export {}
 /**
  * @typedef {Object} Tool
  * @property {string} name
- * @property {string} icon
+ * @property {string} icon - Valid Iconify icon ID
  * @property {string} link
- * @property {number} yearsOfExperience - Greater than 0
+ * @property {number} yearsOfExperience - Greater than or equal to 0
  */
 
 /**
  * @typedef {Object} Interest
  * @property {string} name
- * @property {string} icon - Emoji or icon class
+ * @property {string} icon - Emoji or valid Iconify icon ID
  */
 
 /**

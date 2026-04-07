@@ -2,18 +2,18 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "interests.schema.json",
 
-  "title": "Interests",
+  "title": "الاهتمامات",
   "type": "array",
   "items": {
     "type": "object",
     "properties": {
       "name": {
         "type": "string",
-        "description": "Name of the interest"
+        "description": "اسم الاهتمام"
       },
       "icon": {
         "type": "string",
-        "description": "Emoji or icon class representing the interest"
+        "description": "إيموجي أو معرّف Iconify صالح لتمثيل الاهتمام"
       }
     },
     "required": ["name", "icon"],

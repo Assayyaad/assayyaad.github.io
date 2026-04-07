@@ -2,28 +2,28 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "projects.schema.json",
 
-  "title": "Projects",
+  "title": "المشاريع",
   "type": "array",
   "items": {
     "type": "object",
     "properties": {
       "name": {
         "type": "string",
-        "description": "Name of the project"
+        "description": "اسم المشروع"
       },
       "link": {
         "type": "string",
         "format": "uri",
-        "description": "URL to the project"
+        "description": "رابط إلى المشروع"
       },
       "date": {
         "type": "string",
         "pattern": "^\\d{4}-\\d{2}$",
-        "description": "Date in YYYY-MM format"
+        "description": "التاريخ بصيغة YYYY-MM"
       },
       "description": {
         "type": "string",
-        "description": "Project description"
+        "description": "وصف المشروع"
       }
     },
     "required": ["name", "link", "date", "description"],
