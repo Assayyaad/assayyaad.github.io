@@ -14,24 +14,9 @@
   --color-blue-dark: #0d688b;
   --color-blue-darker: #0c4e87;
   --color-blue-accent: #0f81ad;
+  --color-blue-secondary: #0db7d5;
   --color-green-light: #09ffc5;
   --color-green: #0cb8a0;
-  --color-blue-secondary: #0db7d5;
-
-  /* Fonts */
-  --font: 'Atkinson Hyperlegible', sans-serif;
-
-  /* Spacing */
-  --space-xxs: 0.125rem;
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 2rem;
-  --space-xl: 3rem;
-
-  /* Layout */
-  --max-width: 80%;
-  --item-size: 200px;
 
   /* Shadows */
   --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -42,47 +27,33 @@
 }
 
 /* ===== RESET & BASE STYLES ===== */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: var(--color-text);
-}
-
 body {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
-  background: linear-gradient(0deg, var(--color-bg) 60%, var(--color-primary) 100%) fixed no-repeat;
+  background: var(--color-bg);
   display: flex;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
-  padding: var(--space-xl) var(--space-xl) var(--space-xl) var(--space-xl);
+  padding: var(--size-08);
   padding-top: 10vh;
+  color: var(--color-text);
 }
 
 /* ===== TYPOGRAPHY ===== */
-h1,
-h2 {
-  margin: 0;
-  font-weight: normal;
-}
-
 h1 {
   font-weight: bold;
   font-size: 2rem;
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--size-03);
 }
 
 h2 {
   color: var(--color-text-alt);
   font-size: 1.5rem;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--size-05);
 }
 
 p {
-  margin: var(--space-md) 0;
+  margin: var(--size-05) 0;
   font-size: 1.1rem;
   line-height: 1.6;
 }
@@ -91,24 +62,22 @@ p {
 .centered-box {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
-  width: var(--max-width);
-  max-width: 1200px;
+  gap: var(--size-05);
   margin: 0 auto;
 }
 
 .profile-header {
   display: flex;
   align-items: flex-start;
-  gap: var(--space-xl);
-  margin-bottom: var(--space-xxs);
+  gap: var(--size-08);
+  margin-bottom: var(--size-01);
 }
 
 /* ===== SOCIAL LINKS ===== */
 .sub-pages {
   display: flex;
-  gap: var(--space-md);
-  margin: var(--space-md) 0;
+  gap: var(--size-05);
+  margin: var(--size-05) 0;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
@@ -121,8 +90,8 @@ p {
 .social-link {
   display: flex;
   align-items: center;
-  gap: var(--space-sm);
-  padding: var(--space-sm) var(--space-md);
+  gap: var(--size-03);
+  padding: var(--size-03) var(--size-05);
   background: var(--color-primary);
   border-radius: 20px;
   text-decoration: none;
@@ -144,21 +113,17 @@ p {
 }
 
 /* ===== IMAGES ===== */
-.round-image,
+.logo-image {
+  width: var(--size-12);
+  height: var(--size-12);
+}
+
 .game-image {
   display: block;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background: var(--color-bg);
   pointer-events: none;
   box-shadow: var(--shadow-md);
-}
-
-.round-image {
-  width: var(--item-size);
-  height: var(--item-size);
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
 }
 
 .game-image {
@@ -168,7 +133,6 @@ p {
   border-radius: 8px;
 }
 
-.round-image:hover,
 .game-image:hover {
   transform: scale(1.05);
   box-shadow: var(--shadow-hover);
@@ -178,15 +142,15 @@ p {
 .games-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--space-md);
-  margin: var(--space-md) 0;
+  gap: var(--size-05);
+  margin: var(--size-05) 0;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--space-md);
-  margin: var(--space-md) 0;
+  gap: var(--size-05);
+  margin: var(--size-05) 0;
 }
 
 .game-item {
@@ -206,22 +170,17 @@ p {
 
 .project-item {
   background: var(--color-primary);
-  padding: var(--space-lg);
+  padding: var(--size-07);
   border-radius: 12px;
   box-shadow: var(--shadow-md);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-item:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-hover);
 }
 
 .project-item h4 {
   color: var(--color-text);
   font-weight: bold;
   font-size: 1.2rem;
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--size-03);
 }
 
 .project-item p {
@@ -233,14 +192,14 @@ p {
 
 /* ===== SECTIONS ===== */
 .subsection {
-  margin: var(--space-xl) 0;
+  margin: var(--size-08) 0;
 }
 
 .subsection h3 {
   color: var(--color-text);
   font-weight: bold;
   font-size: 1.5rem;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--size-05);
   text-align: center;
   position: relative;
 }
@@ -260,18 +219,19 @@ p {
 .teams-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: var(--space-lg);
-  margin: var(--space-lg) 0;
+  gap: var(--size-07);
+  margin: var(--size-07) 0;
 }
 
 .team-item {
   background: var(--color-primary);
-  padding: var(--space-lg);
+  padding: var(--size-07);
   border-radius: 12px;
   box-shadow: var(--shadow-md);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.project-item:hover,
 .team-item:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
@@ -281,14 +241,13 @@ p {
   color: var(--color-text);
   font-weight: bold;
   font-size: 1.3rem;
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--size-02);
 }
 
 .team-item .role {
   color: var(--color-secondary);
   font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--size-03);
 }
 
 .team-item p:not(.role) {
@@ -298,137 +257,9 @@ p {
   margin: 0;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
-@media (max-width: 1024px) {
-  :root {
-    --max-width: 90%;
-    --item-size: 180px;
-  }
-
-  body {
-    padding: var(--space-lg);
-  }
-
-  .profile-header {
-    gap: var(--space-lg);
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
-
-  .round-image {
-    width: 150px;
-    height: 150px;
-  }
-
-  .games-grid {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  }
-
-  .projects-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  }
-
-  .teams-section {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 768px) {
-  :root {
-    --max-width: 100%;
-    --item-size: 150px;
-  }
-
-  body {
-    padding: var(--space-md);
-  }
-
-  .centered-box {
-    width: var(--max-width);
-    padding: 0;
-    gap: var(--space-lg);
-  }
-
-  .profile-header {
-    flex-direction: column;
-    gap: var(--space-lg);
-    align-items: center;
-    text-align: center;
-    margin-bottom: var(--space-xxs);
-  }
-
-  .sub-pages {
-    justify-content: center;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 1rem;
-    margin: var(--space-sm) 0;
-  }
-
-  .round-image {
-    width: 120px;
-    height: 120px;
-  }
-
-  .section-header {
-    margin: var(--space-xxs) 0 var(--space-xxs);
-  }
-
-  .section-header h2 {
-    font-size: 1.8rem;
-  }
-
-  .games-grid {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: var(--space-sm);
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-md);
-  }
-
-  .teams-section {
-    grid-template-columns: 1fr;
-    gap: var(--space-md);
-  }
-
-  .subsection {
-    margin: var(--space-lg) 0;
-  }
-
-  .subsection h3 {
-    font-size: 1.3rem;
-  }
-
-  .project-item,
-  .team-item {
-    padding: var(--space-md);
-  }
-}
-
-.profile-image-container {
-  display: block;
-}
-
 .section-header {
   text-align: center;
-  margin: var(--space-xxs) 0 var(--space-xxs);
+  margin: var(--size-01) 0 var(--size-01);
   position: relative;
 }
 
@@ -447,7 +278,7 @@ p {
   font-size: 2.2rem;
   margin: 0;
   display: inline-block;
-  padding: 0 var(--space-md);
+  padding: 0 var(--size-05);
   position: relative;
 }
 
